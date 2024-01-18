@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 695px;
+    background-image: url(./ryan-plomp-TT6Hep-JzrU-unsplash.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    height: 500px;
+    width: 400px;
+    box-shadow: 0px 0px 30px rgb(255, 0, 212);
+    background-color: rgb(0, 0, 0);
+    opacity: 0.7;
+}
+.form h1{
+    margin-bottom: 95%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: white;
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#p1{
+    position: absolute;
+    margin-bottom: 12%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 17px;
+}
+#username{
+    border-radius: 20px;
+    padding: 5px 58px;
+    margin-top: 10px;
+    border: 2px solid transparent;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    box-shadow: 0px 0px 30px rgb(255, 0, 212);
+    background-color: white;
+}
+#p2{
+    position: absolute;
+    margin-top: 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 17px;
+}
+#password{
+    border-radius: 20px;
+    padding: 5px 58px;
+    margin-top: 10px;
+    border: 2px solid transparent;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    box-shadow: 0px 0px 30px rgb(255, 0, 212);
+    background-color: white;
+}
+.a button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 16%;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    height: 40px;
+    width: 100px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    background-color: white;
+}
+.a button:hover{
+    box-shadow: 0px 0px 30px rgb(255, 0, 212);
+    transition: all 350ms;
+    transform:scale(1.2);
+    cursor: pointer;
+}
+#p3{
+    position: absolute;
+    margin-top: 23.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 15px;
+}
+#signup{
+    position: absolute;
+    margin-top: 28%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(246, 255, 0);
+    font-size: 15px;
+}
+#signup:hover{
+    box-shadow: 0px 10px 30px rgb(255, 0, 212);
+    transition: .2s ease;
+    transform:scale(1.1);
+    cursor: pointer;
+}
