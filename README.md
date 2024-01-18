@@ -1,1 +1,1 @@
-# Restful
+# Suite/hotel website
